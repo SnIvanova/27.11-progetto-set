@@ -42,3 +42,7 @@ function handleDOMContentLoaded() {
 }
 
 document.addEventListener("DOMContentLoaded", handleDOMContentLoaded);
+
+
+
+
