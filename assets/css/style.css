@@ -28,8 +28,13 @@
     background-color: var(--black);
     border: 0;
     color: white;
-    border-radius: 2rem;
-    padding: 0.75rem 1.2rem;
+    border-radius: 99rem;
+    border-color: rgba(25, 25, 25, 1);
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    transition: background-color 300ms linear, color 300ms linear;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   /* TOPBAR */
