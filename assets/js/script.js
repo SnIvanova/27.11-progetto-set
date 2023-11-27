@@ -44,5 +44,16 @@ function handleDOMContentLoaded() {
 document.addEventListener("DOMContentLoaded", handleDOMContentLoaded);
 
 
-
+document.addEventListener("DOMContentLoaded", function () {
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
+    });
+  });
+document.addEventListener("DOMContentLoaded", function () {
+    var authorElement = document.querySelector('.author');
+    var newContent = '<p>New content goes here</p><button>Follow</button>';
+    authorElement.setAttribute('data-bs-content', newContent);
+    new bootstrap.Popover(authorElement);
+  });
 
