@@ -3,10 +3,6 @@
     --black: #191919;
     --green: #1a8917;
   }
-  @font-face {
-    font-family: "GT Super";
-    src: url(../fonts/GT-Super-Text-Regular-Trial.otf) format("truetype");
-  }
   body {
     width: 100%;
     font-family: "Roboto", sans-serif;
