@@ -19,6 +19,12 @@
   h1 {
     font-family: "GT Super", "Spectral", serif;
   }
+  h4 {
+    color: #6B6B6B;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: flex;
+  }
   a {
     color: var(--black);
     text-decoration: none;
@@ -194,7 +200,7 @@
     }
     .topbar button {
       line-height: 20px;
-      font-size: 14px;
+      font-size: 20px;
       text-align: center;
     }
     .hero-box {
@@ -257,6 +263,7 @@
     margin-right: 0.75rem;
   }
   .top-trending {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
@@ -280,6 +287,7 @@
     font-weight: 800;
     color: #f2f2f2;
     margin-right: 1rem;
+    letter-spacing: -0.014em;
   }
   .trending-cell-details {
     margin-bottom: 24px;
@@ -291,13 +299,22 @@
   }
   .author img {
     width: 1.25rem;
-    border-radius: 25%;
+    border-radius: 9px;
     margin-right: 8px;
   }
   .author a {
+    flex-wrap: wrap;
+    word-break: break-all;
+    color: #242424;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
     font-size: 13px;
   }
   .trending-cell-details h5 {
+    max-height: 40px;
+    line-height: 20px;
+    color: #242424;
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 8px;
@@ -308,13 +325,19 @@
     -webkit-box-orient: vertical;
   }
   .other-cell-details {
+    color: #6B6B6B;
     display: flex;
+    justify-content: space-between;
     font-size: 13px;
   }
   .edit {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6B;
   }
   .spacing-symbol {
     display: flex;
